@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<head>
+    <title>Alcheringa</title>
+</head>
+<body></body>
+<style>
+    .header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        line-height: 20px;
+
+    }
+    .head01{
+        font-weight: bold;
+        width: 480px;
+        font-size: 22px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 20px;
+    }
+    .head02{
+        font-family: Arial, Helvetica, sans-serif;
+        width: 499px;
+    }
+    .search{
+        padding-left: 15px;
+        height:30px;
+        width:290px;
+        border-radius: 5px;
+        border-width: 1px;
+        border-color: rgb(197, 191, 191);
+        border-style: solid;
+        font-size: 15px;
+        margin-left: 80px;
+    }
+    .head03{
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        width: 499px;
+        
+    }
+    .home{width: 320px;text-align: right;cursor: pointer;}
+    .about{width: 80px;text-align: center;cursor: pointer;}
+    .contact{
+        width: 90px;
+        cursor: pointer;
+    }
+    .home:active{
+        font-weight: bold;
+        font-size: 15px;
+    }
+    .about:active{
+        font-weight: bold;
+        font-size: 15px;
+    }
+    .contact:active{
+        font-weight: bold;
+        font-size: 15px;
+    }
+    .lorem{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 40px;
+        margin-top: 50px;
+    }
+    .ipsum{
+        color: rgb(48,102,250);
+    }
+    .para01{
+        text-align: center;
+        width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 20px;
+        color: grey;
+    }
+    .b1{
+        display: inline-block;
+        width: 750px;
+        
+    }
+    .b2{
+        display: inline-block;
+        width:600px
+    }
+    .button-two{
+        color: rgb(11,107,252);
+        background-color: white;
+        border: none;
+        box-shadow: 0 0 2px rgba(0,0,0,0.4);
+        padding-right: 40px;
+        padding-left: 40px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-size: large;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: 0.15s;
+    }
+    .button-one{
+        color: white;
+        background-color: rgb(11, 107, 252);
+        border: none;
+        padding-right: 40px;
+        padding-left: 40px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-size: large;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 8px;
+        margin-left: 580px;
+        cursor: pointer;
+        transition: 0.15s;
+    }
+    .button-one:hover{
+        background-color: rgb(23, 23, 189);
+    }
+    .button-two:hover{
+        background-color: rgb(239, 233, 233);
+    }
+    .l1{
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 5px;
+    }
+    .l2{
+        font-style: italic;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 5px;
+    }
+    .l3{
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 5px;
+    }
+    .h{
+        background-color: yellow;
+        line-height: 0px;
+        
+    }
+    .l4{
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 0px;
+    }
+    .l6{
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 0px;
+    }
+    .l5{
+        text-decoration: line-through;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 5px;
+    }
+    .html{
+        margin-left: 60px;
+        display: inline-block;
+        font-size: larger;
+        width: 330px;
+        margin-top: 0px;
+        vertical-align: top;
+    }
+    table,th,td{
+        border:1px solid rgb(198, 195, 195);
+        border-collapse: collapse;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 4px;
+        padding-right: 2px;
+        text-align: left;
+        margin-top: 7px;
+        font-size: large;
+
+    }
+
+    .l7{
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 5px;
+        margin-bottom: 0;
+    }
+    .frame{
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 0px;
+        margin-left: 90px;
+    }
+    .fs{
+        font-size: large;
+        margin-top: 12px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+    .image{
+        display: inline-block;
+        margin-left: 90px;
+        vertical-align: top;
+        margin-top: 22px;
+    }
+    .picture{
+        width: 380px;
+        cursor: pointer;
+
+    }
+    .ag{
+        cursor:pointer;
+    }
+    .fb{
+       margin-left:590px;
+       font-family: Arial, Helvetica, sans-serif;
+    }
+    .yt{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .ig{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+</style>
+<header class="header">
+    <div class="head01">
+        <p class="alcher">
+            Alcheringa WebOps
+        </p>
+    </div>   
+    <div class="head02">
+        <input class="search" type="text" placeholder="Search something here">
+    </div>
+    <div class="head03">
+        <p class="home">Home</p>
+        <p class="about">About</p>
+        <p class="contact">Contact</p>
+    </div>    
+</header>
+<hr style="border-color:rgb(219, 214, 214); border-style:solid; border-width:1px">
+
+<p class="lorem">
+    Lorem Ipsum Dolor <span class="ipsum">Lorem Ipsum</span>
+</p>
+<p class="para01">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ac eleifend sapien. In ac arcu nec diam tincidunt cursus. Pellentesque quis tortor sit amet erat condimentum molestie ut nec sapien.
+</p>
+<button class="button-one">
+    Button 1
+</button>
+<button class="button-two">
+    Button 2
+</button>
+<div>
+<div class="html">
+    <p class="l1">
+        HTML Formatting:
+    </p>
+    <p class="l2">
+        This is an italic text
+    </p>
+    <p class="l6">
+        This text is <span class="h">highlighted</span>
+    </p>
+    <p class="l3">
+        This is a <sub>subscript</sub> and a <sup>superscript</sup>
+    </p>
+    <p class="l4">
+        "This is a quotation"
+    </p>
+    <p class="l5">
+        This is done using del tag
+    </p>
+    <p class="l7">HTML Table</p>
+    <table class="table" style="width:100%">
+        <tr>
+            <th>Company</th>
+            <th>Contact</th>
+            <th>Country</th>
+        </tr>
+        <tr>
+            <td>Alfreds Futterkiste</td>
+            <td>Maria Anders</td>
+            <td>Germany</td>
+        </tr>
+    </table>
+</div>
+<div class="frame">
+    <p class="fs">HTML Iframes</p>
+    <iframe class="ag" width="350px" height="200px" src="https://www.alcheringa.in/"></iframe>
+</div>
+<div class="image">
+    <img class="picture" src="picture.jpg">
+</div>
+</div>
+</br>
+</br>
+</br>
+<a target="_blank" href="https://www.facebook.com/alcheringaiitg/photos/alcheringa-proudly-announces-the-news-mill-as-the-digital-media-partneralchering/3824108330960311/" class="fb">Facebook |</a>
+<a target="_blank" href="https://www.instagram.com/alcheringaiitg/?hl=en" class="ig">Instagram |</a>
+<a target="_blank" href="https://www.youtube.com/c/AlcheringaIITG" class="yt">Youtube</a>
